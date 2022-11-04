@@ -1,0 +1,12 @@
+// SublimeLinter Settings - User
+{
+	"highlights.demote_scope": "comment",
+	"no_column_highlights_line": true,
+
+	"styles": [
+        {
+        	"mark_style": "outline",
+        },
+    ],
+	
+}

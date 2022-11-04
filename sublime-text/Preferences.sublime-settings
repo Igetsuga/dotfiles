@@ -1,0 +1,32 @@
+// {
+// 	"color_scheme": "Monokai.sublime-color-scheme",
+// 	"theme": "Default Dark.sublime-theme",
+// 	"font_size": 14,
+// 	"ignored_packages":
+// 	[
+// 		"Vintage",
+// 	],
+// }
+
+// gruvbox Dark Hard Contrast
+{
+	"font_face": "Caskaydia Cove Nerd Font",
+	"font_size": 13,
+
+	// https://packagecontrol.io/packages/gruvbox
+	"theme": "Default.sublime-theme",
+	"color_scheme": "gruvbox (Dark) (Medium).sublime-color-scheme",
+	// "color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
+	
+	"gruvbox_autocomplete_cramped": true,
+	"gruvbox_autocomplete_border": true,
+  	"gruvbox_autocomplete_border_thick": true,
+
+  	"gruvbox_sidebar_comfortable": true,
+  	"gruvbox_sidebar_indent_s": true,
+
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}
