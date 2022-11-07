@@ -1,0 +1,15 @@
+font:
+  size: 14
+  normal:
+    family: CaskaydiaCove Nerd Font Mono
+  bold: 
+    family: CaskaydiaCove Nerd Font Mono
+  italic:
+    family: CaskaydiaCove Nerd Font Mono
+window:
+  opacity: 0.92
+  padding:
+    x: 0
+    y: 0
+  decorations: full
+  dynamic_padding: true
