@@ -1,0 +1,30 @@
+{
+  "target": "terminus_open",
+  "cancel": "terminus_cancel_build",
+
+  "title": "terminal",
+  "focus": true,
+  "timeit": true,
+
+  "post_window_hooks": 
+  [
+  	[ "carry_file_to_pane", {"direction": "right"} ]
+  ],
+
+  // "cmd": ["g++.exe","-std=c++17", "${file}", "-o", "${file_base_name}.exe"],
+  "shell_cmd": "make",
+  // "shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\"",
+  // "shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\"",
+  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+  "working_dir": "${file_path}",
+  "selector": "source.c++",
+  "auto_close": false,
+
+  "variants":
+  [
+    {
+      "name": "Run",
+      "shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\""
+    }
+  ]
+}

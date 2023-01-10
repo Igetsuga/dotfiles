@@ -14,19 +14,20 @@
 	"font_size": 13,
 
 	// https://packagecontrol.io/packages/gruvbox
-	"theme": "Default.sublime-theme",
-	"color_scheme": "gruvbox (Dark) (Medium).sublime-color-scheme",
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Packages/Gruvbox Dark/gruvbox.tmTheme",
 	// "color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
 	
-	"gruvbox_autocomplete_cramped": true,
-	"gruvbox_autocomplete_border": true,
-  	"gruvbox_autocomplete_border_thick": true,
+	"gruvbox_autocomplete_cramped": false,
+	"gruvbox_autocomplete_border": false,
+  	"gruvbox_autocomplete_border_thick": false,
 
-  	"gruvbox_sidebar_comfortable": true,
-  	"gruvbox_sidebar_indent_s": true,
+  	"gruvbox_sidebar_comfortable": false,
+  	"gruvbox_sidebar_indent_s": false,
 
 	"ignored_packages":
 	[
 		"Vintage",
 	],
+	"update_check": false,
 }
